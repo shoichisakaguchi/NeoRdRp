@@ -10,10 +10,10 @@ This file is the HMM profile created from the RdRp collection collected by NeoRd
 ```hmmsearch --domtblout OUTPUT.domtblout --cpu 20 -E 1e-10 NeoRdRp-HMM.vX.hmm AMINO_ACID.FASTA```
 
 ## NeoRdRp-seq.vX.fasta.gz
-
+This file is the amino acid sequence of the RdRp collection of NeoRdRp. By adding any RdRp sequence to this FASTA file, NeoRdRp can be trained.
 
 ## NeoRdRp_annotation.vX.txt
-
+This file shows the results of annotation and score of the HMM profiles used in the UniProtKB search with NeoRdRp. Detected RdRp of interest can be verified by referring to the annotation information of the HMM profile.
 
 ## Download
 | NeoRdRp version | HMM profiles     | Amino acid sequences | Annotation table         |

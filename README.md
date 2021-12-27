@@ -6,6 +6,7 @@ NeoRdRp consists of NCBI RefSeq and NCBI GenBank sequence collections updated as
 
 ## NeoRdRp-HMM.vX.hmm.gz
 This file is the HMM profile created from the RdRp collection collected by NeoRdRp. Specify the unzipped NeoRdRp-HMM file as the hmmsearch option. The following are the commands used in the paper.
+
 ```hmmsearch --domtblout OUTPUT.domtblout --cpu 20 -E 1e-10 NeoRdRp-HMM.vX.hmm AMINO_ACID.FASTA```
 
 ## NeoRdRp-seq.vX.fasta.gz

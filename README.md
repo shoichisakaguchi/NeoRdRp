@@ -2,6 +2,8 @@
 
 NeoRdRp is a comprehensive dataset of RNA-dependent RNA polymerase (RdRp) domains.
 
+NeoRdRp consists of NCBI RefSeq and NCBI GenBank sequence collections that will be updated as new RdRp are added. The files contained in this directory include FASTA files and HMM profiles and annotation data for NeoRdRp. a paper describing NeoRdRp is currently under submission.
+
 **Download**
 | NeoRdRp version | HMM profiles     | Amino acid sequences | Annotation table         |
 |-----------------|------------------|----------------------|--------------------------|

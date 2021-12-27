@@ -10,7 +10,7 @@ NeoRdRp consists of NCBI RefSeq and NCBI GenBank sequence collections updated as
 | 1.0 <br> (2021-12-27) | [NeoRdRp-HMM.v1 <br> (2,234 profiles)](https://github.com/shoichisakaguchi/NeoRdRp/blob/main/NeoRdRp-HMM.v1.hmm.gz)  | [NeoRdRp-seq.v1  <br> (12,316 sequences)](https://github.com/shoichisakaguchi/NeoRdRp/blob/main/NeoRdRp-seq.v1.fasta.gz) | [NeoRdRp-annotation.v1.txt](https://github.com/shoichisakaguchi/NeoRdRp/blob/main/NeoRdRp_annotation.v1.txt) |
 
 ## NeoRdRp-HMM.vX.hmm.gz
-This file is the HMM profile created from the RdRp collection collected by NeoRdRp. Specify the unzipped NeoRdRp-HMM file as the hmmsearch option. The following are the commands used in the paper.
+This file is the HMM profile created from the RdRp collection collected by NeoRdRp. Specify the unzipped NeoRdRp-HMM file as the hmmsearch option. An example of the command is shown as follows:
 
 ```hmmsearch --domtblout OUTPUT.domtblout --cpu 20 -E 1e-10 NeoRdRp-HMM.vX.hmm AMINO_ACID.FASTA```
 

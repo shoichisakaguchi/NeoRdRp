@@ -19,3 +19,6 @@ This file is the amino acid sequence of the RdRp collection of NeoRdRp. By addin
 
 ## NeoRdRp_annotation.vX.txt
 This file shows the results of annotation and score of the HMM profiles used in the UniProtKB search with NeoRdRp. Detected RdRp of interest can be verified by referring to the annotation information of the HMM profile.
+
+## NeoRdRp-score.vX.xlsx
+This file shows the following information for each HMM profile: the number and length of amino acid sequences used to build the HMM profile, the number of times they were used in the UniProtKB search, the mean score, and the standard deviation.

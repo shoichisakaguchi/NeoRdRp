@@ -25,5 +25,5 @@ This file shows the following information for each HMM profile: the number and l
 
 ## Reference
 
-The details of this dataset is described at the following preprint avaiable at the bioRxiv website: <br>
+The details of this dataset were described at the following preprint available at the bioRxiv website: <br>
 Shoichi Sakaguchi, Syun-Ichi Urayama, Yoshihiro Takaki, Hong Wu, Youichi Suzuki, Takuro Nunoura, Takashi Nakano, and So Nakagawa. “NeoRdRp: A Comprehensive Dataset for Identifying RNA-Dependent RNA Polymerase of Various RNA Viruses from Metatranscriptomic Data.” <i>bioRxiv</i>. 2022. https://doi.org/10.1101/2021.12.31.474423

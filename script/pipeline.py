@@ -1,28 +1,33 @@
 #!/usr/bin/env python
 
 # NeoRdRp pipeline
-# Last update: 2022/03/17
+# Last update: 2022/03/24
 # Shoichi Sakaguchi
 
 import csv, sys
+import argparse
 import subprocess as sp
 from subprocess import PIPE
 import glob
 
+# parser
+parser = argparse.ArgumentParser(description='Process RdRp sequences into HMM profiles.')
+parser.add_argument("-i", "--input", required=True, help="Input file name, required. Expecting amino acid sequence of RdRps in FASTA format.")
+parser.add_argument("-o", "--output", default="1st_round.aa.rdrp.hmm", help="Output filename, option. Extension should be '.hmm'.")
+args = parser.parse_args()
+
 # location of files
-# fasta_1 = "1st_round.aa.fasta"
-fasta_1 = sys.argv[1]
+fasta_1 = args.input
 
 # parameter
 param_cdhit_threshould = str(0.6)
 param_cdhit_wordsize = str(4)
 param_cdhit_cluster = str(3)
-param_concat_aa = str(500)
 
+# print parameter
 print("Making HMM profiles from", fasta_1)
 print("CD-HIT wordsize:", param_cdhit_wordsize)
 print("CD-HIT minimum cluster size:", param_cdhit_cluster)
-print("Concatinate minimum size:", param_concat_aa)
 
 ### Rename sequences of input fasta
 d = {} #{acc:seq}
@@ -68,19 +73,21 @@ print("Renamed input file and created acc-num list.")
 
 print("Start clustering...")
 
+cdhit_out = out_fasta2.replace(".fasta", ".cd-hit.fasta")
+
 res = sp.run(
     [
         "cd-hit",
         "-i", 
-        "1st_round.aa.num.fasta",
+        out_fasta2,
         "-o",
-        "1st_round.aa.num.cd-hit.fasta",
+        cdhit_out,
         "-c",
         param_cdhit_threshould,
         "-n",
         param_cdhit_wordsize,
         "-M",
-        "600",
+        "0",
         "-d",
         "0",
         "-T",
@@ -96,11 +103,13 @@ print("Finished clustering.")
 
 print("Making each fasta from clusters.")
 
+cluster_out = cdhit_out + ".clstr"
+
 res = sp.run(
     [
         "make_multi_seq.pl",
-        "1st_round.aa.num.fasta",
-        "1st_round.aa.num.cd-hit.fasta.clstr",
+        out_fasta2,
+        cluster_out,
         "1st_round_multi-seq",
         param_cdhit_cluster
     ],
@@ -118,7 +127,7 @@ for file in files:
         [
         "mafft-linsi", 
         "--thread",
-        "20",
+        "-1",
         file
         ],
     stdout=PIPE, stderr=PIPE, text=True)
@@ -168,7 +177,7 @@ for file in files:
             "python3",
             "rename_num2full.py",
             file,
-            "1st_round.aa.num-name.tsv",
+            out_rename2,
             "1st_round_multi-seq"
         ]
     )
@@ -203,7 +212,7 @@ print("Doing hmmpress...")
 res = sp.run(
     [
         "hmmpress",
-        "1st_round_rdrp.hmm"
+        args.output
     ],
     stdout=PIPE, stderr=PIPE, text=True
     )

@@ -201,7 +201,7 @@ print("Merging HMM profiles...")
 path = "1st_round_multi-seq/"
 files = glob.glob(path + "*.hmm")
 
-with open("1st_round_rdrp.hmm", "wb") as f_new:
+with open(args.output, "wb") as f_new:
     for f in files:
         print(f)
         with open(f, "rb") as f_org:

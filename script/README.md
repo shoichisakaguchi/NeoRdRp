@@ -7,6 +7,7 @@ You can create your original RdRp HMM profiles by runnning the following script.
 ## Recuirements
 - CD-HIT
 - Divvier
+- HMMER
 - Pandas
 - biopython
 

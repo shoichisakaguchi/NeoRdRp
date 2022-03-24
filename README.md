@@ -24,6 +24,9 @@ This file shows the results of annotation and score of the HMM profiles used in 
 ## NeoRdRp-score.vX.xlsx
 This file shows the following information for each HMM profile: the number and length of amino acid sequences used to build the HMM profile, the number of times they were used in the UniProtKB search, the mean score, and the standard deviation.
 
+## Making RdRp HMM profiles by yourself
+The pipeline script and related scripts are located in the script directory; see the README documentation in the script directory.
+
 ## Reference
 
 The details of this dataset were described at the following preprint available at the bioRxiv website: <br>

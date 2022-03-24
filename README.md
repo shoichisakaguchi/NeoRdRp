@@ -7,7 +7,7 @@ NeoRdRp consists of NCBI RefSeq and NCBI GenBank sequence collections updated as
 ## Download
 | NeoRdRp version | HMM profiles     | Amino acid sequences | Annotation table         | Score table |
 |-----------------|------------------|----------------------|--------------------------|-------------|
-|1.1<br>(2022-03-24)|[NeoRdRp-HMM.v1.1<br>(1182 profiles)](NeoRdRp-HMM.hmm)|[NeoRdRp-seq.v1.1<br>(12,502 sequences)](NeoRdRp-seq.fasta)|NeoRdRp-annotation.v1.1.txt|NeoRdRp-score.v1.1.xlsx|
+|1.1<br>(2022-03-24)|[NeoRdRp-HMM.v1.1<br>(1,182 profiles)](https://github.com/shoichisakaguchi/NeoRdRp/blob/fe1070534804d9c9f9725421538cd92390a78ea8/NeoRdRp-HMM.v1.1.hmm.gz)|[NeoRdRp-seq.v1.1<br>(12,502 sequences)](https://github.com/shoichisakaguchi/NeoRdRp/blob/9f0e4f0ffdd8ae83ab8c333fb9a0d85fa0c0f39b/NeoRdRp-seq.v1.1.fasta.gz)|NeoRdRp-annotation.v1.1.txt|[NeoRdRp-score.v1.1.xlsx]()|
 | 1.0 <br> (2021-12-27) | [NeoRdRp-HMM.v1 <br> (2,234 profiles)](https://github.com/shoichisakaguchi/NeoRdRp/blob/9b7aa7e258b91866cb531d3184acdc79f3b9d6dc/archive/v1.0/NeoRdRp-HMM.v1.hmm.gz)  | [NeoRdRp-seq.v1  <br> (12,316 sequences)](https://github.com/shoichisakaguchi/NeoRdRp/blob/9b7aa7e258b91866cb531d3184acdc79f3b9d6dc/archive/v1.0/NeoRdRp-seq.v1.fasta.gz) | [NeoRdRp-annotation.v1.txt](https://github.com/shoichisakaguchi/NeoRdRp/blob/9b7aa7e258b91866cb531d3184acdc79f3b9d6dc/archive/v1.0/NeoRdRp_annotation.v1.txt) | [NeoRdRp-score.v1.xlsx](https://github.com/shoichisakaguchi/NeoRdRp/blob/9b7aa7e258b91866cb531d3184acdc79f3b9d6dc/archive/v1.0/NeoRdRp-score.v1.xlsx) |
 
 ## NeoRdRp-HMM.vX.hmm.gz

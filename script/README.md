@@ -5,12 +5,12 @@ You can create your original RdRp HMM profiles by runnning the following script.
 `python3 pipeline.py INPUT.FASTA`
 
 ## Recuirements
-- CD-HIT
-- MAFFT
-- Divvier
-- HMMER
-- Pandas
-- biopython
+- [CD-HIT](http://weizhong-lab.ucsd.edu/cd-hit/)
+- [MAFFT](https://mafft.cbrc.jp/alignment/software/)
+- [Divvier](https://github.com/simonwhelan/Divvier)
+- [HMMER](http://hmmer.org)
+- [Pandas](https://pandas.pydata.org)
+- [Biopython](https://biopython.org)
 
 ## Changing parameters
 

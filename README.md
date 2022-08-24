@@ -30,6 +30,6 @@ This file shows the following information for each HMM profile: the number and l
 The pipeline script and related scripts are located in the script directory; see the README documentation in the script directory.
 
 ## Reference
-
-The details of this dataset were described at the following preprint available at the bioRxiv website: <br>
-Shoichi Sakaguchi, Syun-Ichi Urayama, Yoshihiro Takaki, Hong Wu, Youichi Suzuki, Takuro Nunoura, Takashi Nakano, and So Nakagawa. “NeoRdRp: A Comprehensive Dataset for Identifying RNA-Dependent RNA Polymerase of Various RNA Viruses from Metatranscriptomic Data.” <i>bioRxiv</i>. 2022. https://doi.org/10.1101/2021.12.31.474423
+The details of this dataset were described at the following paper available at the Microbes and Environments website: <br>
+Sakaguchi, S., Urayama, S.-I., Takaki, Y., Hirosuna, K., Wu, H., Suzuki, Y., Nunoura, T. and Nakagawa, S. (2022). NeoRdRp: A Comprehensive Dataset for Identifying RNA-dependent RNA Polymerases of Various RNA Viruses from Metatranscriptomic Data. <i>Microbes Environ</i>. 37, ME22001. doi: 10.1264/jsme2.ME22001. <br>
+https://www.jstage.jst.go.jp/article/jsme2/37/3/37_ME22001/_article

@@ -6,8 +6,7 @@ NeoRdRp is a dataset of Hidden Markov Model (HMM) profiles of RNA-dependent RNA 
 ## What's New
 ### Version 2.1
 [Download NeoRdRp 2.1](https://doi.org/10.5281/zenodo.10851672)
-- Threshold for splitting was changed from 6 to 8.
-- Performance of hmmsearch of UniProtKB was improved: less non-specific hits.
+- Threshold for splitting was changed from 6 to 8, resulting better performance (less non-specific hits) of UniProtKB.
 - HMM Database: Now includes 19,394 HMM profiles from 557,197 RdRp-containing sequences.
 
 ### Version 2.0

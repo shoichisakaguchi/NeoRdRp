@@ -89,7 +89,10 @@ We extend our heartfelt thanks to the RdRp summit, an initiative focused on buil
 We also want to express our gratitude to all those who have supported us throughout this project. Their assistance, insights, and encouragement have played a crucial role in the development and success of NeoRdRp.
 
 ## Reference
+### NeoRdRp2
+Sakaguchi, S., Nakano, T. and Nakagawa, S. (2024). NeoRdRp2 with Improved Seed Data, Annotations, and Scoring. <i>Frontiers in Virology</i>. 4. doi: 10.3389/fviro.2024.1378695
+https://www.frontiersin.org/articles/10.3389/fviro.2024.1378695/abstract
+
 ### NeoRdRp1
-The details of this dataset were described in the following paper available at the Microbes and Environments website: <br>
-Sakaguchi, S., Urayama, S.-I., Takaki, Y., Hirosuna, K., Wu, H., Suzuki, Y., Nunoura, T. and Nakagawa, S. (2022). NeoRdRp: A Comprehensive Dataset for Identifying RNA-dependent RNA Polymerases of Various RNA Viruses from Metatranscriptomic Data. <i>Microbes Environ</i>. 37, ME22001. doi: 10.1264/jsme2.ME22001. <br>
+Sakaguchi, S., Urayama, S.-I., Takaki, Y., Hirosuna, K., Wu, H., Suzuki, Y., Nunoura, T. and Nakagawa, S. (2022). NeoRdRp: A Comprehensive Dataset for Identifying RNA-dependent RNA Polymerases of Various RNA Viruses from Metatranscriptomic Data. <i>Microbes Environ</i>. 37, ME22001. doi: 10.1264/jsme2.ME22001.
 https://www.jstage.jst.go.jp/article/jsme2/37/3/37_ME22001/_article

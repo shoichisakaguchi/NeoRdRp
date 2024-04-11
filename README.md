@@ -90,7 +90,7 @@ We also want to express our gratitude to all those who have supported us through
 
 ## Reference
 ### NeoRdRp2
-Sakaguchi, S., Nakano, T. and Nakagawa, S. (2024). NeoRdRp2 with Improved Seed Data, Annotations, and Scoring. <i>Frontiers in Virology</i>. 4. doi: 10.3389/fviro.2024.1378695
+Sakaguchi, S., Nakano, T. and Nakagawa, S. (2024). NeoRdRp2 with Improved Seed Data, Annotations, and Scoring. <i>Frontiers in Virology</i>. In Press. doi: 10.3389/fviro.2024.1378695
 https://www.frontiersin.org/articles/10.3389/fviro.2024.1378695/abstract
 
 ### NeoRdRp1

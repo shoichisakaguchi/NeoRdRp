@@ -90,8 +90,8 @@ We also want to express our gratitude to all those who have supported us through
 
 ## Reference
 ### NeoRdRp2
-Sakaguchi, S., Nakano, T. and Nakagawa, S. (2024). NeoRdRp2 with Improved Seed Data, Annotations, and Scoring. <i>Frontiers in Virology</i>. In Press. doi: 10.3389/fviro.2024.1378695
-https://www.frontiersin.org/articles/10.3389/fviro.2024.1378695/abstract
+Sakaguchi S, Nakano T and Nakagawa S (2024) NeoRdRp2 with improved seed data, annotations, and scoring. <i>Front. Virol.</i> 4:1378695. doi: 10.3389/fviro.2024.1378695
+https://www.frontiersin.org/articles/10.3389/fviro.2024.1378695/full
 
 ### NeoRdRp1
 Sakaguchi, S., Urayama, S.-I., Takaki, Y., Hirosuna, K., Wu, H., Suzuki, Y., Nunoura, T. and Nakagawa, S. (2022). NeoRdRp: A Comprehensive Dataset for Identifying RNA-dependent RNA Polymerases of Various RNA Viruses from Metatranscriptomic Data. <i>Microbes Environ</i>. 37, ME22001. doi: 10.1264/jsme2.ME22001.

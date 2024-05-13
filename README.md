@@ -1,3 +1,5 @@
+![Transparent Image](images/NeoRdRp_logo_negative.png)
+
 ## NeoRdRp
 
 ## Introduction
